@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+#root{
+    background-color: #111315;
+    width: 100vw;
+    height: 100vh;
+    padding: 150px 50px;
+    background-image: url(../public/assets/bg-cafe.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 1440px 300px;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    background-image: url(../public/assets/vector.svg);
+    background-repeat: no-repeat;
+    background-position: top 40px left calc(50% + 100px);
+}
+@media (1024px <= width <= 1039px){
+    .main{
+        height:1200px !important;
+    }
+}

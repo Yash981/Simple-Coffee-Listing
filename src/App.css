@@ -10,7 +10,7 @@
     width: 100vw;
     height: 100vh;
     padding: 150px 50px;
-    background-image: url(../public/assets/bg-cafe.jpg);
+    background-image: url(../public/bg-cafe.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: 1440px 300px;
@@ -19,7 +19,7 @@
     justify-content: center;
 }
 .main{
-    background-image: url(../public/assets/vector.svg);
+    background-image: url(../public/vector.svg);
     background-repeat: no-repeat;
     background-position: top 40px left calc(50% + 100px);
 }

@@ -1,6 +1,6 @@
 // import React from 'react'
-import star from '../public/assets/star_fill.svg'
-import EmptyStar from '../public/assets/Star.svg'
+import star from '../public/Star_fill.svg'
+import EmptyStar from '../public/Star.svg'
 import PropTypes from 'prop-types';
 
 const CoffeeListingComponent = ({ coffee }) => {

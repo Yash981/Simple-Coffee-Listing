@@ -7,6 +7,7 @@ function App() {
   const [coffeeData,setcoffeeData] = useState([])
   const [DisplayData,setDisplayData] = useState([])
   const [AvailButtonClicked, setAvailButtonClicked] = useState(false)
+  
   const handleDisplayData = (available) =>{
     if(available){
     const data =  coffeeData.filter((coffee)=> coffee.available === true)
